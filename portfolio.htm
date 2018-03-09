@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Portfolio</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="portfolio.js"></script>
+		<link rel="stylesheet" href="portfolio.css">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div id="navigation-container" class="container-fluid">
+				<a id="logo" href="#" class="navbar-brand">
+					<img id ="image-logo" src="http://logok.org/wp-content/uploads/2014/07/Autodesk_Logo_210_a.png" alt="Logo">
+				</a>
+				<div class="navbar-header">
+					<p id="web-page-name">Akshay Pandit</p>
+				</div>	
+				<div id ="tabs">
+			        <ul class="nav navbar-nav navbar-pills navbar-right">
+			            <li>
+							<a id="home" href="#panel-home" ><span class="fa fa-home"></span> Home</a>
+						</li>
+						<li>
+							<a id="portfolio" href="#panel-portfolio" ><span class="fa fa-briefcase"></span> Portfolio</a>
+						</li>
+						<li>
+							<a id="contact" href="#panel-con" ><span class="fa fa-address-card"></span> Contact</a>
+						</li>
+			        </ul>
+			    </div>
+			</div>
+		</nav> 
+		<div id="panel-home" class="panel container">
+			<div id="panel-home-body" class="panel-body row">
+				<div id="panel-home-image" class="col-lg-4">
+					<img id="dp" src="img/dp.jpg" alt="Profile Picture">
+				</div>
+				<div id="panel-home-content" class="col-lg-8 text-center">
+					<p>Web Developer and budding enterpreneur<hr><br> Love challenging tasks and strive for learning opportunities <br><br>Have relevant internship experience in software development<br><br> Want to travel the world and devour all kind of street food, there is!!</p>
+				</div>
+			</div>
+		</div>
+		<div id="panel-portfolio" class = "panel container">
+			<div id="portfolio-first-row" class = "row">
+				<div id="portfolio1" class="col-sm-4 thumbnail">
+					<img id="hrd" src="img/HRD.jpg" alt="">
+				</div>
+				<div id="portfolio2" class="col-sm-4 thumbnail">
+					<img id="green_olympiad" src="img/GO.jpg" alt="">
+				</div>
+				<div id="portfolio3" class="col-sm-4 thumbnail">
+					<img id="science-exhibition" src="img/se.jpg" alt="">
+				</div>
+			</div>
+			<div id="portfolio-second-row" class = "row">
+				<div id="portfolio4" class="col-sm-4 thumbnail">
+					<img id="cs" src="img/CS.jpg" alt="">
+				</div>
+				<div id="portfolio5" class="col-sm-4 thumbnail">
+					<img id="tcdc" src="img/tcdc.png" alt="">
+				</div>
+				<div id="portfolio6" class="col-sm-4 thumbnail">
+					<img id="" src="" alt="">
+				</div>
+			</div>
+		</div>
+		<div id="panel-con" class = "panel container ">
+			<div class="panel-heading text-center">
+				<h3 >Contact me</h3>
+			</div>
+			<div id="panel-contact" class="panel-body">
+				<div class="">
+						<h4><i class="fa fa-google-plus"></i>      akkypandit7@gmail.com<br></h4>
+				</div>
+				<br>
+				<div class="">
+					<h4><a href="https://linkedin.com/in/akshay-pandit-ece2014-2018" target="_blank" style="color:white"><i class="fa fa-linkedin-square"></i>     LinkedIn Profile</a></h4>
+				</div>
+				<br>
+				<div class="">
+					<h4><a href="https://github.com/Akshay296" target="_blank" style="color:white"><i class="fa fa-github-square"></i>      Github Profile</a></h4>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
